@@ -1,20 +1,47 @@
-# COS-104-Group-Project
-Cos-104-Group-Project
-💰 Simple Banking App (Streamlit)
-This project is a minimal banking simulation app that allows users to interact with two types of accounts:
+# Bank Account Manager (Streamlit App)
 
-Savings Account (with a maximum withdrawal limit) Current Account The application was built using Python and Streamlit for the UI.
+This is a Streamlit web application for simulating basic banking operations like creating accounts, depositing money, and checking balances. It supports both savings and current accounts and uses a modular structure with multiple Python files for clarity.
 
- ✨ Features
-Create and manage a Savings or Current account Deposit and withdraw funds Enforce a 25 million unit withdrawal limit for savings accounts Simple and clean web-based user interface
+---
+
+## 📁 Project Structure
+
+
+---
+
+## Features
+
+- Create a savings or current account
+- Deposit money into the account
+- Check your account balance
+- Simple and user-friendly interface
+- Cleanly structured code using multiple files
+
+---
+
+## How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/bank-account-manager.git
+   cd bank-account-manager
+
+2.Install the dependencies:
+pip install streamlit
+
+3.Run the app:
+streamlit run interface.py
 
 Group Members
+
 O. Martins Luther : wrote the code for the home.py
 
-Ajayi Daniel : also wrote the code for the home.py
+Ajayi Daniel : wrote the code for the interface.py
 
 Solomon kunle best : Wrote the code for the savings account
 
 Dimitris R. Aibangbee : Wrote the code for the account
 
 Etim Cornelius Emediong : wrote the code for the currrent account
+
+
